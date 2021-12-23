@@ -7,18 +7,26 @@ public class PlayerController : MonoBehaviour
 {
     //PROPIEDADES
     [Range(0, 20), SerializeField,
-     Tooltip("CurrentVelocity")]
+     Tooltip("Max Linear Velocity")]
     private float speed = 5f;
-    
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
+    [Range(0, 90), SerializeField,
+     Tooltip("Max Turn Velocity")]
+    private float turnSpeed = 30f;
+
+    private float horizontalInput;
+    private float verticalInput;
+   
+
     void Update()
     {
-        transform.Translate(speed * Vector3.forward * Time.deltaTime);
+        horizontalInput = Input.GetAxis("Horizontal");
+        verticalInput = Input.GetAxis("Vertical");
+        
+        transform.Translate(speed * verticalInput *  Time.deltaTime * Vector3.forward);
+
+        if (Mathf.Abs(verticalInput) < 0.01f) return;
+        
+        transform.Rotate(turnSpeed * horizontalInput * Time.deltaTime * Vector3.up);
     }
 }
