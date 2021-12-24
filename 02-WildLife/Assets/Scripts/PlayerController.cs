@@ -11,15 +11,9 @@ public class PlayerController : MonoBehaviour
     public GameObject projectilePrefab;
     
     
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
     void Update()
     {
+        //Movement
         horizontalInput = Input.GetAxis("Horizontal");
         transform.Translate(speed * horizontalInput * Time.deltaTime * Vector3.right);
 
@@ -31,6 +25,15 @@ public class PlayerController : MonoBehaviour
         if (transform.position.x > xRange)
         {
             transform.position = new Vector3(xRange, transform.position.y, transform.position.z);
+        }
+        
+        
+        //Actions
+        if (Input.GetKey(KeyCode.Space))
+        {
+            //If enter here, must launch a projectile
+            Instantiate(projectilePrefab, transform.position,
+                projectilePrefab.transform.rotation);
         }
     }
 }
