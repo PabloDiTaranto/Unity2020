@@ -369,6 +369,7 @@ GameObject:
   - component: {fileID: 475985834}
   - component: {fileID: 475985837}
   - component: {fileID: 475985836}
+  - component: {fileID: 475985835}
   m_Layer: 0
   m_Name: Ground
   m_TagString: Untagged
@@ -390,6 +391,19 @@ Transform:
   m_Father: {fileID: 992285706}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &475985835
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 475985833}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10, y: 2.220446e-16, z: 10}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &475985836
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -556,6 +570,8 @@ MonoBehaviour:
   - {fileID: 8912171575031097332, guid: 07cfb5ca31810af488a2ae834fb417e0, type: 3}
   - {fileID: 7176728339709061945, guid: 4b56186cbd237dd4cbe0c2004985b668, type: 3}
   - {fileID: 6329170533319542941, guid: f847e4e524e0c8541b5ce611817f017d, type: 3}
+  startDelay: 2
+  spawnInterval: 1.5
 --- !u!4 &923068332
 Transform:
   m_ObjectHideFlags: 0
@@ -669,7 +685,7 @@ PrefabInstance:
     - target: {fileID: 4784397211976992787, guid: 610afbb40c4385d42aa33adfe3531f0a, type: 3}
       propertyPath: projectilePrefab
       value: 
-      objectReference: {fileID: 282226378612858767, guid: e0e664b021d1e7a45920d4ca1c81c0b1, type: 3}
+      objectReference: {fileID: 2376821097019969363, guid: c55b2912e550d4d4dba230700fbca757, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 610afbb40c4385d42aa33adfe3531f0a, type: 3}
 --- !u!1 &1590138454

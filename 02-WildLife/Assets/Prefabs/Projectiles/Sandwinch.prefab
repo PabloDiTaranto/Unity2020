@@ -53,7 +53,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2376821097019969363, guid: c55b2912e550d4d4dba230700fbca757, type: 3}
       propertyPath: m_Name
-      value: Food_Pizza_01 Variant
+      value: Sandwinch
       objectReference: {fileID: 0}
     - target: {fileID: 2376821097022903123, guid: c55b2912e550d4d4dba230700fbca757, type: 3}
       propertyPath: m_Mesh
@@ -63,5 +63,9 @@ PrefabInstance:
       propertyPath: speed
       value: 30
       objectReference: {fileID: 0}
+    - target: {fileID: 2612816405758163427, guid: c55b2912e550d4d4dba230700fbca757, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4300000, guid: 029157f85720f7749bec0a7d852a5894, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c55b2912e550d4d4dba230700fbca757, type: 3}

@@ -2,50 +2,469 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ce3a7c3-9179-48b7-ac2d-8f6030d9fb6c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Animals.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Animals/Animal_Cow_Brown.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Animals/Animal_Cow_Brown.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Animals/Animal_Moose_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Animals/Animal_Moose_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Animals/Dog_Beagle_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Animals/Dog_Beagle_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Projectiles.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Projectiles/Bottle.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Projectiles/Bottle.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Projectiles/Cookie.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Projectiles/Cookie.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Projectiles/Pizza.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Projectiles/Pizza.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Projectiles/Sandwinch.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Projectiles/Sandwinch.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/DestroyOutOfBounds.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/DestroyOutOfBounds.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SpawnManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SpawnManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 2.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 2/Challenge 2.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 2/Challenge 2.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 2/Instructions.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 2/Instructions/Challenge 2 - Outcome.mov" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 2/Instructions/Challenge 2 - Outcome.mov.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 2/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 2/Prefabs/Ball 1.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 2/Prefabs/Ball 1.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 2/Prefabs/Ball 2.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 2/Prefabs/Ball 2.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 2/Prefabs/Ball 3.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 2/Prefabs/Ball 3.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 2/Prefabs/Dog.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 2/Prefabs/Dog.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 2/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 2/Scripts/DestroyOutOfBoundsX.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 2/Scripts/DestroyOutOfBoundsX.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 2/Scripts/DetectCollisionsX.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 2/Scripts/DetectCollisionsX.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 2/Scripts/MoveForwardX.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 2/Scripts/MoveForwardX.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 2/Scripts/PlayerControllerX.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 2/Scripts/PlayerControllerX.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 2/Scripts/SpawnManagerX.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 2/Scripts/SpawnManagerX.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 2/_Source_Files.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 2/_Source_Files/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 2/_Source_Files/Materials/Blue.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 2/_Source_Files/Materials/Blue.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 2/_Source_Files/Materials/Green.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 2/_Source_Files/Materials/Green.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 2/_Source_Files/Materials/Grey.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 2/_Source_Files/Materials/Grey.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 2/_Source_Files/Materials/Red.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 2/_Source_Files/Materials/Red.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 2/_Source_Files/Materials/White.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 2/_Source_Files/Materials/White.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Blue.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Blue.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Prototyping.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Prototyping.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CheckCollisions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CheckCollisions.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Characters.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Characters/Farm.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Characters/Farm/SimpleFarmer_Black.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Characters/Farm/SimpleFarmer_Black.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Characters/Farm/SimpleFarmer_Brown.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Characters/Farm/SimpleFarmer_Brown.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Characters/Farm/SimpleFarmer_Daughter_Black.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Characters/Farm/SimpleFarmer_Daughter_Black.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Characters/Farm/SimpleFarmer_Daughter_Brown.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Characters/Farm/SimpleFarmer_Daughter_Brown.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Characters/Farm/SimpleFarmer_Daughter_White.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Characters/Farm/SimpleFarmer_Daughter_White.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Characters/Farm/SimpleFarmer_FarmWrangler_Black.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Characters/Farm/SimpleFarmer_FarmWrangler_Black.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Characters/Farm/SimpleFarmer_FarmWrangler_Brown.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Characters/Farm/SimpleFarmer_FarmWrangler_Brown.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Characters/Farm/SimpleFarmer_FarmWrangler_White.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Characters/Farm/SimpleFarmer_FarmWrangler_White.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Characters/Farm/SimpleFarmer_White.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Characters/Farm/SimpleFarmer_White.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Characters/Farm/SimpleFarmer_Wife_Black.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Characters/Farm/SimpleFarmer_Wife_Black.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Characters/Farm/SimpleFarmer_Wife_Brown.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Characters/Farm/SimpleFarmer_Wife_Brown.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Characters/Farm/SimpleFarmer_Wife_White.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Characters/Farm/SimpleFarmer_Wife_White.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Characters/Town.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Characters/Town/SimplePeople_BusinessMan_Black.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Characters/Town/SimplePeople_BusinessMan_Black.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Characters/Town/SimplePeople_BusinessMan_Brown.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Characters/Town/SimplePeople_BusinessMan_Brown.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Characters/Town/SimplePeople_BusinessMan_White.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Characters/Town/SimplePeople_BusinessMan_White.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Characters/Town/SimplePeople_Doctor_Black.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Characters/Town/SimplePeople_Doctor_Black.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Characters/Town/SimplePeople_Doctor_Brown.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Characters/Town/SimplePeople_Doctor_Brown.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Characters/Town/SimplePeople_Doctor_White.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Characters/Town/SimplePeople_Doctor_White.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Characters/Town/SimplePeople_Punk_Black.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Characters/Town/SimplePeople_Punk_Black.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Characters/Town/SimplePeople_Punk_Brown.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Characters/Town/SimplePeople_Punk_Brown.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Characters/Town/SimplePeople_Punk_White.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Characters/Town/SimplePeople_Punk_White.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Characters/Town/SimplePeople_RoadWorker_Black.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Characters/Town/SimplePeople_RoadWorker_Black.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Characters/Town/SimplePeople_RoadWorker_Brown.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Characters/Town/SimplePeople_RoadWorker_Brown.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Characters/Town/SimplePeople_RoadWorker_White.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Characters/Town/SimplePeople_RoadWorker_White.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Characters/Town/SimplePeople_Waitress_Black.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Characters/Town/SimplePeople_Waitress_Black.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Characters/Town/SimplePeople_Waitress_Brown.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Characters/Town/SimplePeople_Waitress_Brown.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Characters/Town/SimplePeople_Waitress_White.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Characters/Town/SimplePeople_Waitress_White.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Obstacles.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Obstacles/Barrel_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Obstacles/Barrel_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Obstacles/Barrel_02.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Obstacles/Barrel_02.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Obstacles/Crate_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Obstacles/Crate_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Obstacles/Prop_Barrier01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Obstacles/Prop_Barrier01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Obstacles/Prop_Barrier02.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Obstacles/Prop_Barrier02.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Obstacles/Prop_Barrier03.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Obstacles/Prop_Barrier03.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Obstacles/Prop_Spool_02.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Obstacles/Prop_Spool_02.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Obstacles/SM_Prop_StoneWall_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Obstacles/SM_Prop_StoneWall_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Obstacles/SM_Rock_Boulder_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Obstacles/SM_Rock_Boulder_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Obstacles/SM_Tree_Log_02.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Obstacles/SM_Tree_Log_02.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Particles.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Particles/FX_DirtSplatter.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Particles/FX_DirtSplatter.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Particles/FX_Explosion_Smoke.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Particles/FX_Explosion_Smoke.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Sound.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Sound/Music.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Sound/Music/cron_audio_8-bit_modern01.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Sound/Music/cron_audio_8-bit_modern01.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Sound/Music/cron_audio_8-bit_modern02.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Sound/Music/cron_audio_8-bit_modern02.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Sound/Music/cron_audio_8-bit_modern03.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Sound/Music/cron_audio_8-bit_modern03.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Sound/SFX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Sound/SFX/crash1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Sound/SFX/crash1.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Sound/SFX/crash2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Sound/SFX/crash2.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Sound/SFX/crash3.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Sound/SFX/crash3.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Sound/SFX/jump1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Sound/SFX/jump1.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Sound/SFX/jump2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Sound/SFX/jump2.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Sound/SFX/jump3.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/Sound/SFX/jump3.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/FBX/Animations.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/FBX/Animations.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/FBX/Animations.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/FBX/Animations/Mask_Upper.mask" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/FBX/Animations/Mask_Upper.mask.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/FBX/Animations/SimpleCharacter_5.0.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/FBX/Animations/SimpleCharacter_5.0.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/FBX/Animations_IK.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/FBX/Animations_IK.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/FBX/Animations_Static.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/FBX/Animations_Static.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/FBX/Prop_Barrier01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/FBX/Prop_Barrier01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/FBX/Prop_Barrier02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/FBX/Prop_Barrier02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/FBX/Prop_Barrier03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/FBX/Prop_Barrier03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/FBX/Prop_BouyLarge_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/FBX/Prop_BouyLarge_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/FBX/SM_Primitive_Cube_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/FBX/SM_Primitive_Cube_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/FBX/SM_Prop_Barrel_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/FBX/SM_Prop_Barrel_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/FBX/SM_Prop_Crate_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/FBX/SM_Prop_Crate_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/FBX/SM_Prop_Crate_Question_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/FBX/SM_Prop_Crate_Question_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/FBX/SM_Prop_Spool_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/FBX/SM_Prop_Spool_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/FBX/SM_Prop_StoneWall_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/FBX/SM_Prop_StoneWall_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/FBX/SM_Prop_Synty_Cube_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/FBX/SM_Prop_Synty_Cube_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/FBX/SM_Rock_Boulder_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/FBX/SM_Rock_Boulder_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/FBX/SM_Tree_Log_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/FBX/SM_Tree_Log_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/FBX/SimpleFarm_Characters.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/FBX/SimpleFarm_Characters.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/FBX/SimplePeople.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/FBX/SimplePeople.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/FX_Base.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/FX_Base.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/MilitaryProps.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/MilitaryProps.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/PolygonNature_01.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/PolygonNature_01.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/PolygonPrototype_Texture_01.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/PolygonPrototype_Texture_01.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/PolygonPrototype_Texture_04.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/PolygonPrototype_Texture_04.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/Prop_Signs_00.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/Prop_Signs_00.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmWrangler_Black.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmWrangler_Black.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmWrangler_Brown.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmWrangler_Brown.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmWrangler_White.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmWrangler_White.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/SimpleFarmer_Farmer_Black.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/SimpleFarmer_Farmer_Black.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/SimpleFarmer_Farmer_Brown.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/SimpleFarmer_Farmer_Brown.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/SimpleFarmer_Farmer_White.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/SimpleFarmer_Farmer_White.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersDaughter_Black.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersDaughter_Black.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersDaughter_Brown.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersDaughter_Brown.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersDaughter_White.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersDaughter_White.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersWife_Black.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersWife_Black.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersWife_Brown.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersWife_Brown.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersWife_White.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersWife_White.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/SimplePeople_BeachBabe_Black.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/SimplePeople_BeachBabe_Black.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/SimplePeople_BusinessMan_Black.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/SimplePeople_BusinessMan_Black.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/SimplePeople_BusinessMan_Brown.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/SimplePeople_BusinessMan_Brown.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/SimplePeople_BusinessMan_White.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/SimplePeople_BusinessMan_White.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/SimplePeople_Doctor_Black.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/SimplePeople_Doctor_Black.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/SimplePeople_Doctor_Brown.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/SimplePeople_Doctor_Brown.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/SimplePeople_Doctor_White.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/SimplePeople_Doctor_White.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/SimplePeople_Punk_Black.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/SimplePeople_Punk_Black.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/SimplePeople_Punk_Brown.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/SimplePeople_Punk_Brown.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/SimplePeople_Punk_White.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/SimplePeople_Punk_White.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/SimplePeople_RoadWorker_Black.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/SimplePeople_RoadWorker_Black.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/SimplePeople_RoadWorker_Brown.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/SimplePeople_RoadWorker_Brown.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/SimplePeople_RoadWorker_White.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/SimplePeople_RoadWorker_White.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/SimplePeople_Waitress_Black.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/SimplePeople_Waitress_Black.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/SimplePeople_Waitress_Brown.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/SimplePeople_Waitress_Brown.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/SimplePeople_Waitress_White.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/SimplePeople_Waitress_White.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/SimplePort.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/SimplePort.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/UnlitVertexColour_Alpha.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Materials/UnlitVertexColour_Alpha.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Misc.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Misc/Mask_Body.mask" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Misc/Mask_Body.mask.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Misc/Mask_Head.mask" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Misc/Mask_Head.mask.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Misc/Mask_LowerBody.mask" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Misc/Mask_LowerBody.mask.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Misc/SM_Prop_Barrel_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Misc/SM_Prop_Barrel_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Misc/SimpleCharacter.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Misc/SimpleCharacter.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/Background_City.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/Background_City.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/Background_Nature.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/Background_Nature.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/Background_Town.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/Background_Town.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/PolygonNature_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/PolygonNature_01.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/PolygonPrototype_Texture_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/PolygonPrototype_Texture_01.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/PolygonPrototype_Texture_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/PolygonPrototype_Texture_04.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/Signs_00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/Signs_00.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmWrangler_Black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmWrangler_Black.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmWrangler_Brown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmWrangler_Brown.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmWrangler_White.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmWrangler_White.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/SimpleFarmer_Farmer_Black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/SimpleFarmer_Farmer_Black.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/SimpleFarmer_Farmer_Brown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/SimpleFarmer_Farmer_Brown.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/SimpleFarmer_Farmer_White.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/SimpleFarmer_Farmer_White.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmersDaughter_Black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmersDaughter_Black.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmersDaughter_Brown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmersDaughter_Brown.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmersDaughter_White.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmersDaughter_White.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmersWife_Black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmersWife_Black.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmersWife_Brown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmersWife_Brown.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmersWife_White.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmersWife_White.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/SimplePeople_BeachBabe_Black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/SimplePeople_BeachBabe_Black.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/SimplePeople_BusinessMan_Black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/SimplePeople_BusinessMan_Black.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/SimplePeople_BusinessMan_Brown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/SimplePeople_BusinessMan_Brown.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/SimplePeople_BusinessMan_White.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/SimplePeople_BusinessMan_White.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/SimplePeople_Doctor_Black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/SimplePeople_Doctor_Black.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/SimplePeople_Doctor_Brown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/SimplePeople_Doctor_Brown.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/SimplePeople_Doctor_White.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/SimplePeople_Doctor_White.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/SimplePeople_Punk_Black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/SimplePeople_Punk_Black.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/SimplePeople_Punk_Brown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/SimplePeople_Punk_Brown.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/SimplePeople_Punk_White.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/SimplePeople_Punk_White.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/SimplePeople_RoadWorker_Black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/SimplePeople_RoadWorker_Black.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/SimplePeople_RoadWorker_Brown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/SimplePeople_RoadWorker_Brown.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/SimplePeople_RoadWorker_White.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/SimplePeople_RoadWorker_White.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/SimplePeople_Waitress_Black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/SimplePeople_Waitress_Black.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/SimplePeople_Waitress_Brown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/SimplePeople_Waitress_Brown.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/SimplePeople_Waitress_White.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/SimplePeople_Waitress_White.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/SimplePort.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/SimplePort.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/Textures_Props.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/Textures/Textures_Props.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/_LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Course Library/_Source_Files/_LICENSE.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Scenes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Scenes/Prototype 3.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Assets/Scenes/Prototype 3.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Logs/AssetImportWorker0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Logs/Packages-Update.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Logs/shadercompiler-UnityShaderCompiler.exe1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Logs/shadercompiler-UnityShaderCompiler.exe2.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Logs/shadercompiler-UnityShaderCompiler.exe3.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Logs/shadercompiler-UnityShaderCompiler.exe4.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Logs/shadercompiler-UnityShaderCompiler.exe5.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Logs/shadercompiler-UnityShaderCompiler.exe6.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Logs/shadercompiler-UnityShaderCompiler.exe7.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Logs/shadercompiler-UnityShaderCompiler.exe8.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Packages/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/Packages/packages-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/ProjectSettings/AudioManager.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/ProjectSettings/ClusterInputManager.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/ProjectSettings/DynamicsManager.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/ProjectSettings/EditorSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/ProjectSettings/InputManager.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/ProjectSettings/NavMeshAreas.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/ProjectSettings/PackageManagerSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/ProjectSettings/PresetManager.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/ProjectSettings/TimeManager.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/ProjectSettings/VFXManager.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/ProjectSettings/VersionControlSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/ProjectSettings/XRSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-Jump/UserSettings/EditorUserSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.02-WildLife/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.02-WildLife/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Course Library/Animals/Forest/Animal_Stag_01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Course Library/Animals/Forest/Animal_Stag_01.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bottle.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bottle.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Cookie.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Cookie.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Pizza.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Pizza.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Sandwinch.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Sandwinch.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Course Library/Materials/Material_Grass.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Course Library/Materials/Material_Grass.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Course Library/Materials/Material_Grass.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Course Library/Materials/Material_Grass.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Course Library/_Source_Files/FBX/Animations.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Course Library/_Source_Files/FBX/Animations.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Course Library/_Source_Files/FBX/Animations_IK.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Course Library/_Source_Files/FBX/Animations_IK.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Course Library/_Source_Files/FBX/Animations_Static.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Course Library/_Source_Files/FBX/Animations_Static.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Course Library/_Source_Files/FBX/SimpleDogs.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Course Library/_Source_Files/FBX/SimpleDogs.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Course Library/_Source_Files/FBX/SimpleFarm_Characters.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Course Library/_Source_Files/FBX/SimpleFarm_Characters.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Course Library/_Source_Files/Materials/SimpleDogs.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Course Library/_Source_Files/Materials/SimpleDogs.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Course Library/_Source_Files/Materials/SimpleDogs.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Course Library/_Source_Files/Materials/SimpleDogs.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmWrangler_Black.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmWrangler_Black.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmWrangler_Black.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmWrangler_Black.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Course Library/_Source_Files/Materials/SimpleFarmer_Farmer_Black.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Course Library/_Source_Files/Materials/SimpleFarmer_Farmer_Black.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Course Library/_Source_Files/Materials/SimpleFarmer_Farmer_Black.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Course Library/_Source_Files/Materials/SimpleFarmer_Farmer_Black.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersDaughter_Brown.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersDaughter_Brown.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersDaughter_Brown.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersDaughter_Brown.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersWife_Black.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersWife_Black.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersWife_Black.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersWife_Black.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Course Library/_Source_Files/Misc/Mask_Body.mask" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Course Library/_Source_Files/Misc/Mask_Body.mask" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Course Library/_Source_Files/Misc/Mask_Body.mask.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Course Library/_Source_Files/Misc/Mask_Body.mask.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Course Library/_Source_Files/Misc/Mask_Head.mask" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Course Library/_Source_Files/Misc/Mask_Head.mask" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Course Library/_Source_Files/Misc/Mask_Head.mask.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Course Library/_Source_Files/Misc/Mask_Head.mask.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Course Library/_Source_Files/Misc/Mask_LowerBody.mask" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Course Library/_Source_Files/Misc/Mask_LowerBody.mask" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Course Library/_Source_Files/Misc/Mask_LowerBody.mask.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Course Library/_Source_Files/Misc/Mask_LowerBody.mask.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Course Library/_Source_Files/Misc/SD_Animal_Dog.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Course Library/_Source_Files/Misc/SD_Animal_Dog.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Course Library/_Source_Files/Misc/SD_Animal_Dog.controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Course Library/_Source_Files/Misc/SD_Animal_Dog.controller.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Course Library/_Source_Files/Misc/SimpleCharacter.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Course Library/_Source_Files/Misc/SimpleCharacter.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Course Library/_Source_Files/Misc/SimpleCharacter.controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Course Library/_Source_Files/Misc/SimpleCharacter.controller.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Course Library/_Source_Files/Textures/SimpleDogs.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Course Library/_Source_Files/Textures/SimpleDogs.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmWrangler_Black.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmWrangler_Black.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Course Library/_Source_Files/Textures/SimpleFarmer_Farmer_Black.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Course Library/_Source_Files/Textures/SimpleFarmer_Farmer_Black.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmersDaughter_Brown.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmersDaughter_Brown.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmersWife_Black.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmersWife_Black.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Course Library/_Source_Files/Textures/Texture_Grass.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Course Library/_Source_Files/Textures/Texture_Grass.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Course Library/_Source_Files/_LICENSE.txt.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Course Library/_Source_Files/_LICENSE.txt.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Animals/Animal_Cow_Brown.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Animals/Animal_Cow_Brown.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Animals/Animal_Moose_01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Animals/Animal_Moose_01.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Animals/Animal_Stag_01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Animals/Animal_Stag_01.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Animals/Dog_Beagle_01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Animals/Dog_Beagle_01.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Projectiles/Bottle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Projectiles/Bottle.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Projectiles/Cookie.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Projectiles/Cookie.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Projectiles/Pizza.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Projectiles/Pizza.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Projectiles/Sandwinch.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Projectiles/Sandwinch.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Prototype 2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Prototype 2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DestroyOutOfBounds.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DestroyOutOfBounds.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SpawnManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SpawnManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/Packages-Update.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/Packages-Update.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe2.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe3.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe4.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe5.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe6.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe7.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe8.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe9.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe3.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe3.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe4.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe4.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/AudioManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/AudioManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/PresetManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/PresetManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TimeManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TimeManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/VFXManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/VFXManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,6 +538,8 @@
       <workItem from="1640372379926" duration="61000" />
       <workItem from="1640372594334" duration="2243000" />
       <workItem from="1640379182484" duration="3108000" />
+      <workItem from="1640441608343" duration="3052000" />
+      <workItem from="1640471212583" duration="1946000" />
     </task>
     <servers />
   </component>

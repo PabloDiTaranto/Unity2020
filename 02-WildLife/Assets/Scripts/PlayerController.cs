@@ -29,7 +29,7 @@ public class PlayerController : MonoBehaviour
         
         
         //Actions
-        if (Input.GetKey(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             //If enter here, must launch a projectile
             Instantiate(projectilePrefab, transform.position,
