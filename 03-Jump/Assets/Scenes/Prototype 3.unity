@@ -631,7 +631,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jumpForce: 20
   gravityMultiplier: 5
-  gameOver: 0
 --- !u!54 &1634312368
 Rigidbody:
   m_ObjectHideFlags: 0

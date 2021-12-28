@@ -9,10 +9,14 @@ public class SpawnManager : MonoBehaviour
     private float startDelay = 2f;
     private float repeatRate = 2f;
     private int obstacleIndex;
+
+
+    private PlayerController _playerController;
     
     // Start is called before the first frame update
     void Start()
     {
+        _playerController = GameObject.Find("Player").GetComponent<PlayerController>();
         spawnPos = transform.position;
         InvokeRepeating("SpawnObstacle", startDelay, repeatRate);
     }  
@@ -20,7 +24,10 @@ public class SpawnManager : MonoBehaviour
 
     private void SpawnObstacle()
     {
-        obstacleIndex = Random.Range(0, obstaclesPrefabs.Length);
-        Instantiate(obstaclesPrefabs[obstacleIndex], spawnPos, obstaclesPrefabs[obstacleIndex].transform.rotation);
+        if (!_playerController.GameOver)
+        {
+            obstacleIndex = Random.Range(0, obstaclesPrefabs.Length);
+            Instantiate(obstaclesPrefabs[obstacleIndex], spawnPos, obstaclesPrefabs[obstacleIndex].transform.rotation);
+        }
     }
 }
