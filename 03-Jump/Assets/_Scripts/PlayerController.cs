@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-[RequireComponent(typeof(Rigidbody))]
+[RequireComponent(typeof(Rigidbody), typeof(AudioSource))]
 public class PlayerController : MonoBehaviour
 {
 
@@ -19,6 +19,10 @@ public class PlayerController : MonoBehaviour
 
     public ParticleSystem explosion;
     public ParticleSystem dirtTrail;
+
+    public AudioClip[] jumpSound, crashSound;
+    private AudioSource _audioSource;
+    [Range(0, 1)] public float audioVolumen = 1f;
     
     private const string SPEED_MULTIPLIER = "SpeedMultiplier";
     private const string JUMP_TRIG = "Jump_trig";
@@ -27,6 +31,8 @@ public class PlayerController : MonoBehaviour
     private const string DEATH_TYPE = "DeathType_int";
 
     public bool GameOver { get => _gameOver; }
+
+    private bool doOnceDie;
     
     // Start is called before the first frame update
     void Start()
@@ -38,6 +44,8 @@ public class PlayerController : MonoBehaviour
         _animator = GetComponent<Animator>();
         
         _animator.SetFloat("Speed_f", 1);
+
+        _audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -56,6 +64,8 @@ public class PlayerController : MonoBehaviour
             _animator.SetBool(JUMP_B, true);
             
             dirtTrail.Stop();
+            
+            _audioSource.PlayOneShot(jumpSound[Random.Range(0, jumpSound.Length)], audioVolumen);
         }
     }
 
@@ -67,7 +77,7 @@ public class PlayerController : MonoBehaviour
             _animator.SetBool(JUMP_B, false);
             dirtTrail.Play();
 
-        }else if (collision.gameObject.CompareTag("Obstacle"))
+        }else if (collision.gameObject.CompareTag("Obstacle") && !doOnceDie)
         {
             Debug.Log("Game OVER");
             _animator.SetBool(DEATH_B, true);
@@ -75,6 +85,8 @@ public class PlayerController : MonoBehaviour
             _gameOver = true;
             dirtTrail.Stop();
             explosion.Play();
+            _audioSource.PlayOneShot(crashSound[Random.Range(0, crashSound.Length)], audioVolumen);
+            doOnceDie = !doOnceDie;
         }
     }
 }
