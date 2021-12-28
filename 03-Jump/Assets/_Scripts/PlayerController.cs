@@ -16,6 +16,9 @@ public class PlayerController : MonoBehaviour
     private bool _gameOver;
 
     private Animator _animator;
+
+    public ParticleSystem explosion;
+    public ParticleSystem dirtTrail;
     
     private const string SPEED_MULTIPLIER = "SpeedMultiplier";
     private const string JUMP_TRIG = "Jump_trig";
@@ -45,11 +48,14 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && _isOnGround && !_gameOver)
         {
             _playerRb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+            
             _isOnGround = false;
             
             _animator.SetTrigger(JUMP_TRIG);
             
             _animator.SetBool(JUMP_B, true);
+            
+            dirtTrail.Stop();
         }
     }
 
@@ -59,6 +65,7 @@ public class PlayerController : MonoBehaviour
         {
             _isOnGround = true;
             _animator.SetBool(JUMP_B, false);
+            dirtTrail.Play();
 
         }else if (collision.gameObject.CompareTag("Obstacle"))
         {
@@ -66,6 +73,8 @@ public class PlayerController : MonoBehaviour
             _animator.SetBool(DEATH_B, true);
             _animator.SetInteger(DEATH_TYPE, Random.Range(1,3));
             _gameOver = true;
+            dirtTrail.Stop();
+            explosion.Play();
         }
     }
 }
