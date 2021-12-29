@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 
 [RequireComponent(typeof(Rigidbody), typeof(AudioSource))]
@@ -16,6 +17,7 @@ public class PlayerController : MonoBehaviour
     private bool _gameOver;
 
     private Animator _animator;
+    private float speedMultiplier = 1f;
 
     public ParticleSystem explosion;
     public ParticleSystem dirtTrail;
@@ -38,21 +40,22 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         _playerRb = GetComponent<Rigidbody>();
-
-        Physics.gravity *= gravityMultiplier;
+        Physics.gravity = gravityMultiplier * new Vector3(0, -9.81f, 0);
 
         _animator = GetComponent<Animator>();
         
         _animator.SetFloat("Speed_f", 1);
 
         _audioSource = GetComponent<AudioSource>();
+
+        speedMultiplier = 1f;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
-        _animator.SetFloat(SPEED_MULTIPLIER, 1 + Time.time/10);
+        speedMultiplier += Time.deltaTime / 10;
+        //_animator.SetFloat(SPEED_MULTIPLIER, speedMultiplier);
         if (Input.GetKeyDown(KeyCode.Space) && _isOnGround && !_gameOver)
         {
             _playerRb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
@@ -73,6 +76,7 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Ground"))
         {
+            if(_gameOver) return;
             _isOnGround = true;
             _animator.SetBool(JUMP_B, false);
             dirtTrail.Play();
@@ -87,6 +91,12 @@ public class PlayerController : MonoBehaviour
             explosion.Play();
             _audioSource.PlayOneShot(crashSound[Random.Range(0, crashSound.Length)], audioVolumen);
             doOnceDie = !doOnceDie;
+            Invoke("RestartGame", 1f);
         }
+    }
+
+    private void RestartGame()
+    {
+        SceneManager.LoadSceneAsync("Prototype 3");
     }
 }

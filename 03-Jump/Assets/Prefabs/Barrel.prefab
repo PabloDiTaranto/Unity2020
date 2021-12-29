@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 8777513824101797999}
   - component: {fileID: 3004697057241389808}
   - component: {fileID: -643840599563034772}
+  - component: {fileID: 188757080616389988}
   m_Layer: 0
   m_Name: Barrel
   m_TagString: Obstacle
@@ -98,7 +99,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 88
   m_CollisionDetection: 0
 --- !u!136 &3004697057241389808
 CapsuleCollider:
@@ -107,7 +108,7 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4532980333949332253}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 63994aaf0e0368d46a65870b9730c0e8, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.47719038
@@ -121,9 +122,23 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4532980333949332253}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c8b9ba61d6e9555409d4ad975309c146, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 8
+--- !u!114 &188757080616389988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4532980333949332253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d7ab752be4a8c54cba840bddcd08931, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spinSpeed: 180
+  translateSpeed: 10
