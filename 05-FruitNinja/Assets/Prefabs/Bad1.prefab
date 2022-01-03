@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 4718928436284163144}
   m_Layer: 6
   m_Name: Bad1
-  m_TagString: Untagged
+  m_TagString: Bad
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -146,6 +146,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f6645e30338d3045a1baad9bc24b6f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pointValue: -10
+  explosionParticle: {fileID: 4758139293545943008, guid: c7ad2532a6eeb40b59033c75e71fa054, type: 3}
 --- !u!96 &4718928436284163144
 TrailRenderer:
   serializedVersion: 2
