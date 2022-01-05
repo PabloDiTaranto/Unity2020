@@ -3,7 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(Animator), typeof(Rigidbody))]
+[RequireComponent(typeof(Animator), typeof(Rigidbody),
+    typeof(AudioSource))]
 public class PlayerController : MonoBehaviour
 {
     private const string IS_WALKING = "IsWalking";
@@ -13,6 +14,8 @@ public class PlayerController : MonoBehaviour
     private Animator _animator;
 
     private Rigidbody _rigidbody;
+
+    private AudioSource _audioSource;
 
     [SerializeField]
     private float turnSpeed;
@@ -24,9 +27,9 @@ public class PlayerController : MonoBehaviour
     {
         _rigidbody = GetComponent<Rigidbody>();
         _animator = GetComponent<Animator>();
+        _audioSource = GetComponent<AudioSource>();
     }
 
-    // Update is called once per frame
     void FixedUpdate()
     {
         float horizontal = Input.GetAxis("Horizontal");
@@ -39,6 +42,18 @@ public class PlayerController : MonoBehaviour
         bool isWalking = hasHorizontalInput || hasVerticalInput;
 
         _animator.SetBool(IS_WALKING, isWalking);
+
+        if (isWalking)
+        {
+            if (!_audioSource.isPlaying)
+            {
+                _audioSource.Play();
+            }
+        }
+        else
+        {
+            _audioSource.Stop();
+        }
 
         Vector3 desiredForward = Vector3.RotateTowards(transform.forward,
             movement, turnSpeed * Time.fixedDeltaTime, 0f);
